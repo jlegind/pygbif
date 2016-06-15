@@ -58,11 +58,22 @@ Occurrences module
 
     from pygbif import occurrences as occ
     occ.search(taxonKey = 3329049)
-    occ.get(taxonKey = 252408386)
+    occ.get(key = 252408386)
     occ.count(isGeoreferenced = True)
     occ.download_list(user = "sckott", limit = 5)
     occ.download_meta(key = "0000099-140929101555934")
-    occ.download_get("0000099-140929101555934")
+    occ.download_get("0000066-140928181241064")
+
+
+Contributors
+============
+
+* `Scott Chamberlain <https://github.com/sckott>`__
+* `Robert Forkel <https://github.com/xrotwang>`__
+* `Jan Legind <https://github.com/jlegind>`__
+* `Stijn Van Hoey <https://github.com/stijnvanhoey>`__
+* `Peter Desmet <https://github.com/peterdesmet>`__
+
 
 Meta
 ====
